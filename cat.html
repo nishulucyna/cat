@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASCII Art</title>
     <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: monospace;
-            white-space: pre;
+        /* Remove margins and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Hide scrollbars */
+            background-color: black; /* Background color */
+            color: white; /* Text color */
+            font-family: monospace; /* Monospace font for ASCII art */
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
+            white-space: pre; /* Preserve spaces and line breaks */
         }
     </style>
 </head>
